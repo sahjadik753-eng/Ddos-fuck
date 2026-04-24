@@ -208,9 +208,9 @@ class BotUsernameCopier:
 
 # 🔥 ONE-LINE USAGE
 async def main():
-    async with BotUsernameCopier("ghp_YOUR_GITHUB_TOKEN") as copier:
+    async with BotUsernameCopier("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") as copier:
         # Just username!
-        clone = await copier.copy_bot("@targetbot", new_token="YOUR_NEW_BOT_TOKEN")
+        clone = await copier.copy_bot("@targetbot", new_token="8625672345:AAGHlK4qjYjhQ2Qn6Qd_x9PKAJrTQBpKpFE")
         
         if clone:
             print(f"\n🎉 Pentest clone ready: {clone}")
